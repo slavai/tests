@@ -2,9 +2,16 @@
 @import "variables";
 @import "bootstrap";
 
+//typographic
+@import "typographic/fonts";
+
+//import PLUGIN STYLES
+@import "plugins/mmenu/jquery.mmenu.all";
 
 //import CORE STYLES
 @import "core/core";
 
-//import PLUGIN STYLES
-@import "plugins/mmenu/jquery.mmenu.all";
+//import PARTIALS
+@import "partial/after_header_line";
+@import "partial/box_wInf";
+

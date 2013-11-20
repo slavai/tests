@@ -1,0 +1,53 @@
+.after_header_line{
+    background-color: #007545;
+    text-align: center;
+    a{
+        display: inline-block;
+        background: #a0ce66;
+        box-shadow: 0 2px 0 0px #085434 ;
+        text-align: center;
+        color: #004529;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        text-decoration: none;
+        cursor: pointer;
+        font-weight: bold;
+        line-height: 40px;
+        .mail_icon, .cupon_icon, .money_icon{
+            @include GeneralSprite();
+            display: inline-block;
+            background-size: 60px;
+            line-height: 33px;
+
+            margin-right: 5px;
+
+        }
+        .cupon_icon{
+            background-position: 0 -32px;
+            height: 25px;
+            margin-bottom: -4px;
+            width: 47px;
+        }
+        .mail_icon{
+            background-position: 0 1px;
+            height: 16px;
+            margin-right: 5px;
+            width: 24px;
+            margin-bottom: -2px;
+        }
+        .money_icon{
+            background-position: 0 -74px;
+            height: 20px;
+            margin-bottom: -4px;
+            width: 33px;
+        }
+    }
+    &.Nbox-3{
+        a{
+            width: 30.8%;
+            &:nth-child(2n){
+                margin:0 2%;
+            }
+        }
+    }
+}

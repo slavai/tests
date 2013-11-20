@@ -1,0 +1,25 @@
+footer{
+    background: #009155;
+    h2{
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    h3{
+        color: #A0CE66;
+        font-size: 29px;
+        font-weight: bold;
+        text-align: center;
+    }
+    i.buble-icon{
+        @include GeneralSprite();
+        background-position: 0 -125px;
+        background-repeat: no-repeat;
+        background-size: 50px auto;
+        display: inline-block;
+        height: 37px;
+        margin-bottom: -10px;
+        margin-right: 5px;
+        width: 37px;
+    }
+}

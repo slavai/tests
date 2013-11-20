@@ -1,0 +1,113 @@
+!!!
+%html{lang: "en-US"}
+  %head
+    %meta{charset: "utf-8"}/
+    %meta{content: "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
+    %meta{content: "", name: "description"}/
+    %meta{content: "width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no", name: "viewport"}/
+    %meta{content: "True", name: "HandheldFriendly"}/
+    %meta{content: "black-translucent", name: "apple-mobile-web-app-status-bar-style"}/
+    %meta{content: "telephone=no", name: "format-detection"}/
+    %title title.)
+    %link{href: "stylesheets/styles.css", rel: "stylesheet", type: "text/css"}/
+    %link{href: "stylesheets/media/Min900.css", media: "all and (min-width: 900px)", rel: "stylesheet", type: "text/css"}/
+    %link{href: "stylesheets/media/Min500-Max899.css", media: "all and (min-width: 500px) and (max-width: 899px)", rel: "stylesheet", type: "text/css"}/
+    /[if lt IE 9]
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  %body
+    #page
+      %section#home
+        %header
+          .ContentWrapp.clearfix
+            %a.logo{href: "/"}
+              %img{alt: "", src: "images/core_images/header-logo.png"}/
+            .header_title_block
+              %span.header_title ¡Hola Pedro!
+              %a#open-icon-header{href: "#menu"}
+        %section.after_header_line.Nbox-3
+          .ContentWrapp
+            %a.mail_box{href: "#"}
+              %i.mail_icon>
+              3
+            %a.cupon_box{href: "#"}
+              %i.cupon_icon>
+              5
+            %a.money_box{href: "#"}
+              %i.money_icon>
+              $255
+        %section.page_title
+          %h1 ¡Ahorre y Gane!
+        %section.mainContent
+          .ContentWrapp
+            .box_wInf
+              .box_wInf_right.mail_circle_icon
+                .vertical-align
+                  %span.vertical-align-midle Crest
+              .box_wInf_left Preguntas sobre su rutina extraordinaria
+            .box_wInf
+              .box_wInf_right.mail_cupon_icon
+                .vertical-align
+                  %span.vertical-align-midle Crest
+              .box_wInf_left Preguntas sobre su sdf sdf sdf sdfrutina extraordinaria
+            .box_wInf
+              .box_wInf_right.mail_money_icon
+                .vertical-align
+                  %span.vertical-align-midle Crest
+              .box_wInf_left 987Preguntas sobre su rutina extraordinaria
+            .box_wInf
+              .box_wInf_right.mail_circle_icon
+                .vertical-align
+                  %span.vertical-align-midle Crest Crest
+              .box_wInf_left Preguntas sobre su rutina extraordinaria
+            .box_wInf
+              .box_wInf_right.mail_circle_icon
+                .vertical-align
+                  %span.vertical-align-midle Crest
+              .box_wInf_left Preguntas sobre su rutina extraordinaria
+            .center-align-block
+              %a.button{href: "#"}
+                %i.dw_icon>
+                Mas
+        %footer
+          .ContentWrapp
+            %h2 ¡Le podemos ayudar!
+            %h3
+              %i.buble-icon>
+              (310) 826-3900
+      %nav#menu
+        %ul
+          %li#open-icon-menu
+            %a{href: "#"}
+              %i.glyphicon.glyphicon-th-list
+          %li
+            %a{href: "#home"}
+              %i.glyphicon.glyphicon-home
+              Home
+          %li
+            %a{href: "#"}
+              %i.glyphicon.glyphicon-th
+              Profile
+          %li
+            %a{href: "#"}
+              %i.glyphicon.glyphicon-bold
+              My Coupons
+          %li
+            %a{href: "#"}
+              %i.glyphicon.glyphicon-resize-horizontal
+              My Transfers
+          %li
+            %a{href: "#"}
+              %i.glyphicon.glyphicon-arrow-down
+              My Messages
+          %li
+            %a{href: "#"}
+              %i.glyphicon.glyphicon-arrow-up
+              Password Change
+    / scripts place
+    %script{src: "http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js", type: "text/javascript"}
+    %script{src: "javascripts/mmenu/jquery.mmenu.min.js", type: "text/javascript"}
+    / last
+    %script{src: "javascripts/front-end.js"}
+    / last
+    / scripts place

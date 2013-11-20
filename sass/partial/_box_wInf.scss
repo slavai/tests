@@ -1,0 +1,64 @@
+.box_wInf{
+ box-shadow: 0 2px 0 0px #085434;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin-bottom: 20px;
+    .box_wInf_right{
+        float: right;
+        width: 85px;
+        background: #00ad66;
+        border-left:1px solid #12ba75 ;
+        height: 44px;
+        border-radius:0 4px 4px 0;
+        -webkit-border-radius: 0 4px 4px 0;
+        position: relative;
+        .vertical-align{
+            max-width: 55px;
+            padding:0 0 0 5px;
+        }
+        span{
+            font-size: 11px;
+            line-height: 13px;
+            vertical-align: middle;
+        }
+        &.box_wInf_right:after{
+            background-color: #B3E079;
+            border: 2px solid #00A862;
+            border-radius: 15px;
+            content: "";
+            height: 25px;
+            position: absolute;
+            right: -5px;
+            top: -4px;
+            width: 25px;
+        }
+    }
+    .box_wInf_left{
+        background: none repeat scroll 0 0 #009457;
+        border-radius: 4px 0 0 4px;
+        border-right: 1px solid #097B4C;
+        font-size: 14px;
+        height: 44px;
+        margin-right: 85px;
+        padding: 0 5px;
+        position: relative;
+    }
+    .mail_circle_icon:after{
+        @include GeneralSprite();
+        background-position: 4px 6px;
+        background-repeat: no-repeat;
+        background-size: 32px auto;
+    }
+    .mail_cupon_icon:after{
+        @include GeneralSprite();
+        background-position: 1px -9px;
+        background-repeat: no-repeat;
+        background-size: 25px auto;
+    }
+    .mail_money_icon:after{
+        @include GeneralSprite();
+        background-position: 3px -32px;
+        background-repeat: no-repeat;
+        background-size: 30px auto;
+    }
+}

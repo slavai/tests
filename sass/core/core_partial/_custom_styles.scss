@@ -1,5 +1,137 @@
-.main_container{
-  max-width: 960px;
-  width: 100%;
-  margin: 0 auto;
+html, body
+{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+body
+{
+    background: #f5fee6;
+}
+
+#menu
+{
+    background: #222;
+}
+#menu *
+{
+    font-size: 16px;
+}
+
+#menu li:after
+{
+    margin-left: 60px;
+}
+#menu li a
+{
+    line-height: 40px;
+}
+#menu li a:hover
+{
+    background-color: rgba( 0, 0, 0, 0.2 );
+}
+#menu .icon
+{
+    margin: 0 20px 0 3px;
+    opacity: 0.6;
+}
+
+
+#page
+{
+    box-shadow: none !important;
+}
+#page nav
+{
+    display: none;
+}
+
+
+div.ContentWrapp
+{
+    max-width: 500px;
+    padding: 21px 3% 19px;
+    margin: auto;
+}
+
+.vertical-align{
+    display: table;
+    height: 100%;
+}
+.vertical-align-midle{
+    display: table-cell;
+    vertical-align: middle;
+}
+.center-align-block{
+    text-align: center;
+}
+.ContentWrapp{
+    .button{
+        display: inline-block;
+        text-align: center;
+        background: #a0ce66;
+        box-shadow: 0 2px 0 0px #085434;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        margin: 25px 0;
+        padding: 12px 28px;
+        color: #004529;
+        i{
+            margin-right: 5px;
+        }
+    }
+}
+.dw_icon{
+    @include GeneralSprite();
+    background-position: 0 -111px;
+    background-repeat: no-repeat;
+    background-size: 60px auto;
+    display: inline-block;
+    height: 20px;
+    margin-bottom: -4px;
+    width: 20px;
+}
+
+@media all and (max-width: 300px) {
+    header .ContentWrapp .logo{
+        display: block !important;
+        float: none;
+        max-width: 100% !important;
+        width: 100% !important;
+        img{
+            display: block !important;
+            margin: 0 auto;
+            width: 50% !important;
+        }
+    }
+    .after_header_line a{
+        display: block !important;
+        margin: 0 0 10px !important;
+        width: 100% !important;
+    }
+}
+@media all and (min-width: 500px) {
+    a#open-icon-header
+    {
+        display: none;
+    }
+}
+@media all and (max-width: 499px) {
+    #open-icon-menu
+    {
+        display: none;
+    }
+}
+@media all and (min-width: 900px) {
+    #open-icon-menu
+    {
+        display: none;
+    }
+    #mmenu-blocker
+    {
+        display: none !important;
+    }
 }

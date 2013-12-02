@@ -1,0 +1,42 @@
+/*@media all and (max-width: 300px) {
+  header .ContentWrapp .logo{
+    display: block !important;
+    float: none;
+    max-width: 100% !important;
+    width: 100% !important;
+    img{
+      display: block !important;
+      margin: 0 auto;
+      width: 50% !important;
+    }
+  }
+  .after_header_line a{
+    display: block !important;
+    margin: 0 0 10px !important;
+    width: 100% !important;
+  }
+}*/
+@media all and (min-width: 500px) {
+  a#open-icon-header
+  {
+    display: none;
+  }
+}
+@media all and (max-width: 499px) {
+  #open-icon-menu
+  {
+    display: none;
+  }
+}
+@media all and (min-width: 900px) {
+  #open-icon-menu
+  {
+    display: none;
+  }
+  #mmenu-blocker
+  {
+    display: none !important;
+  }
+    .mm-page{
+    z-index: auto!important;}
+}

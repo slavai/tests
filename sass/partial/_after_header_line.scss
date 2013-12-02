@@ -1,6 +1,9 @@
 .after_header_line{
-    background-color: #007545;
+    background-color: #00643b;
     text-align: center;
+    .ContentWrapp{
+        padding: 11px 3%;
+    }
     a{
         display: inline-block;
         background: #a0ce66;
@@ -12,34 +15,34 @@
         text-decoration: none;
         cursor: pointer;
         font-weight: bold;
-        line-height: 40px;
+        line-height: 38px;
         .mail_icon, .cupon_icon, .money_icon{
             @include GeneralSprite();
             display: inline-block;
-            background-size: 60px;
+            background-size: 53px;
             line-height: 33px;
 
             margin-right: 5px;
 
         }
         .cupon_icon{
-            background-position: 0 -32px;
+            background-position: 0 -26px;
             height: 25px;
             margin-bottom: -4px;
-            width: 47px;
+            width: 41px;
         }
         .mail_icon{
-            background-position: 0 1px;
+            background-position: 0 0px;
             height: 16px;
             margin-right: 5px;
             width: 24px;
             margin-bottom: -2px;
         }
         .money_icon{
-            background-position: 0 -74px;
+            background-position: 0 -64px;
             height: 20px;
             margin-bottom: -4px;
-            width: 33px;
+            width: 29px;
         }
     }
     &.Nbox-3{

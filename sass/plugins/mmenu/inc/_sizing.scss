@@ -1,11 +1,11 @@
 //	Variables
-$defaultWidth		: 0.8;
-$defaultMinWidth	: 140px;
+$defaultWidth		: 0.6;
+$defaultMinWidth	: 120px;
 $defaultMaxWidth	: 440px;
 
-$defaultHeight		: 0.8;
+$defaultHeight		: 1;
 $defaultMinHeight	: 140px;
-$defaultMaxHeight	: 880px;
+$defaultMaxHeight	: 1880px;
 
 //	Sizing left
 @mixin sizing( $cls: "",

@@ -1,0 +1,132 @@
+.box_wInf{
+    box-shadow: 0 2px 0 0px #085434;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin-bottom: 13px;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    &.open{
+        .cupon_nn{
+            display: none;
+        }
+        .money_nn{
+            display: table-cell!important;
+            font-size: 15px;
+        }
+        .box_wInf_right_bottom_button{
+            display: block!important;
+        }
+        .box_wInf_left{
+            height: 102px;
+        }
+        .box_wInf_right.circle_icon{
+            border-radius: 0 4px 0 0;
+            -webkit-border-radius: 0 4px 0 0;
+            &:after{
+                background-position: 4px -37px!important;
+                background-size: 37px auto!important;
+            }
+        }
+    }
+    .box_wInf_right_bottom_button{
+        background: none repeat scroll 0 0 #9ECC65;
+        border-left: 1px solid #12BA75;
+        border-radius: 0 0 4px 0;
+        -webkit-border-radius: 0 4px 0 0;
+        border-top: 1px solid #097B4C;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 49px;
+        padding: 0 10px 0 0px;
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        &:after{
+            @include GeneralSprite();
+            background-position: 3px -380px;
+            background-repeat: no-repeat;
+            background-size: 40px auto;
+            content: "";
+            height: 10px;
+            margin-top: -5px;
+            position: absolute;
+            right: 5px;
+            top: 50%;
+            width: 10px;
+            z-index: 99;
+        }
+    }
+    .box_wInf_right{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 85px;
+        background: #00ad66;
+        height: 52px;
+        border-radius:0 4px 4px 0;
+        -webkit-border-radius: 0 4px 4px 0;
+        z-index: 99;
+        .vertical-align{
+            max-width: 55px;
+            padding:0 0 0 5px;
+            border-left:1px solid #12ba75 ;
+        }
+        span{
+            font-size: 11px;
+            line-height: 13px;
+            vertical-align: middle;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        &.box_wInf_right.circle_icon:after{
+            background-color: #B3E079;
+            border: 2px solid #00A862;
+            border-radius: 15px;
+            content: "";
+            height: 32px;
+            position: absolute;
+            right: -5px;
+            top: -4px;
+            width: 32px;
+            @include GeneralSprite();
+            background-position: 2px -10px;
+            background-repeat: no-repeat;
+            background-size: 31px auto;
+            z-index: 99;
+        }
+    }
+    .box_wInf_left{
+        background: none repeat scroll 0 0 #009457;
+        border-radius: 4px 0 0 4px;
+        border-right: 1px solid #097B4C;
+        font-size: 14px;
+        height: 52px;
+        padding: 0 5px;
+        padding-right: 85px;
+        position: relative;
+        overflow: hidden;
+        line-height: 25px;
+        z-index: 9;
+        width: 100%;
+
+    }
+    .mail_circle_icon:after{
+        @include GeneralSprite();
+        background-position: 6px 9px;
+        background-repeat: no-repeat;
+        background-size: 40px auto;
+    }
+    .cupon_circle_icon:after{
+        @include GeneralSprite();
+        background-position: 2px -10px;
+        background-repeat: no-repeat;
+        background-size: 31px auto;
+    }
+    .money_circle_icon:after{
+        @include GeneralSprite();
+        background-position: 4px -37px;
+        background-repeat: no-repeat;
+        background-size: 37px auto;
+    }
+}

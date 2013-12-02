@@ -1,0 +1,77 @@
+.ContentWrapp{
+    label{
+        display: block;
+        width: 100%;
+        color:#00a261 ;
+        font-size: 15px;
+        padding-bottom: 14px;
+        input, select{
+            letter-spacing: 0;
+            margin-top: 8px;
+            width: 100%;
+            border-radius: 6px!important;
+            -webkit-border-radius: 6px!important;
+            border:1px solid #085434;
+            background: #ffffff;
+            color: #959595;
+            display: block;
+            padding: 10px;
+
+        }
+
+    }
+}
+.formSabmit_block{
+    position: fixed;
+    z-index: 1999;
+    top: 0;
+    left: 0 ;
+    padding: 15px 35% 8px 5%;
+    min-width: 100%;
+    font-size: 0;
+//    transition-delay: 0s;
+//    transition-duration: 0.4s;
+//    transition-property: top, right, bottom, left, transform;
+//    transition-timing-function: ease;
+//
+//    -webkit-transition-delay: 0s;
+//    -webkit-transition-duration: 0.4s;
+//    -webkit-transition-property: top, right, bottom, left, transform;
+//    -webkit-transition-timing-function: ease;
+    @include clearfix();
+    input[type="submit"]{
+        width: 46%;
+        margin-right: 4%;
+        float: left;
+    }
+    .red_button{
+        width: 46%;
+        margin-left: 4%;
+        float: right;
+    }
+}
+.mm-opening{
+    .formSabmit_block{
+        right: 60%;
+        left: auto;
+    }
+}
+.formOnFocus{
+
+    .formSabmit_block{
+        display: block!important;
+
+    }
+    .mm-fixed-top{
+        min-height: 69px;
+        .logo{
+            visibility: hidden!important;
+        }
+        .header_title{
+            visibility: hidden!important;
+        }
+        .header_title_block{
+            opacity: 0.4;
+        }
+    }
+}

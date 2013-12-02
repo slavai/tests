@@ -67,3 +67,20 @@ body
 header .ContentWrapp{
     position: static!important;
 }
+
+body .formSabmit_block{
+     left: 50%;
+     margin: 15px auto auto -219px;
+     max-width: 290px;
+     min-width: 290px;
+     padding: 0;
+     position: absolute;
+    input{
+        width: 47%!important;
+        margin: 0!important;
+    }
+    a{
+        width: 48%!important;
+        margin: 0!important;
+    }
+ }

@@ -1,0 +1,67 @@
+.cupon_button_block{
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 2px 0 0 #085434;
+    -webkit-box-shadow: 0 2px 0 0 #085434;
+    display: block;
+    margin-bottom: 13px;
+    margin-top: 5px;
+    position: relative;
+    .cupon_button_block_right{
+        background: none repeat scroll 0 0 #00af67;
+        border-radius: 0 4px 4px 0;
+        -webkit-border-radius: 0 4px 4px 0;
+        height: 52px;
+        min-height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 125px;
+        z-index: 99;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        text-align: center;
+        border-left: 1px solid #097b4c;
+        font-weight: bold;
+        line-height: 52px;
+        font-size: 0;
+        @include clearfix();
+        overflow: hidden;
+            a{
+                float: left;
+                vertical-align: top;
+                text-align: center;
+                height: 100%;
+                cursor: pointer;
+                font-size: 16px;
+                font-weight: bold;
+                &:first-child{
+                    border-right: 1px solid #097b4c;
+                    border-left: 1px solid #12BA75;
+                    width: 60%;
+                }
+                &:last-child{
+                    border-left: 1px solid #12ba75;
+                    width: 40%;
+                    border-radius: 0 4px 0 0;
+                    -webkit-border-radius: 0 4px 0 0;
+                }
+            }
+    }
+    .cupon_button_block_left {
+        background: none repeat scroll 0 0 #009457;
+        border-radius: 4px;
+        -webkit-border-radius: 4px 0 0 4px;
+        font-size: 18px;
+        height: 52px;
+        line-height: 52px;
+        overflow: hidden;
+        padding: 0 125px 0 15px;
+        position: relative;
+        width: 100%;
+        z-index: 9;
+        font-weight: bold;
+    }
+
+
+}

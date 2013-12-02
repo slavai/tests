@@ -12,6 +12,7 @@ html, body
     margin-left: 60px;
     position: relative;
     right: 60px;
+    z-index: auto!important;
 }
 .mm-menu.mm-right{
     left: 100% !important;
@@ -44,4 +45,33 @@ html.mm-opening .mm-page
 }
 header .ContentWrapp{
     position: static!important;
+}
+#open-icon-menu{
+    i{
+        background: transparent!important;
+        box-shadow: 0 -3px 0 0 #FFFFFF, 0 3px 0 0 #FFFFFF, 0 9px 0 0 #FFFFFF;
+        height: 2px;
+        margin-top: -7px;
+        width: 17px;
+    }
+}
+
+body .formSabmit_block{
+    left: 50%;
+    margin: 15px auto auto -221px;
+    padding: 0;
+    position: absolute;
+    max-width: 290px;
+    min-width: 290px;
+    input{
+        width: 47%!important;
+        margin: 0!important;
+    }
+    a{
+        width: 48%!important;
+        margin: 0!important;
+    }
+}
+body .M_menu_icon{
+    margin: 0 11px;
 }

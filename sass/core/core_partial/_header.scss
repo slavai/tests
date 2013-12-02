@@ -1,31 +1,22 @@
-.mm-right.mm-next.mm-opened.mm-opening{
-    header{
-        .ContentWrapp{
-            right: 80%;
-        }
-    }
-}
+
 
 header{
     background: #009b5c;
-    border-bottom: 1px solid #179b63;
-    min-height: 80px;
+    border-bottom: 2px solid #007545;
+    min-height: 71px;
     .ContentWrapp{
-        padding: 12px 3% 11px;
-        right: 0;
-        position: fixed;
-        top: 0;
+        padding: 7px 5% 8px;
         width: 100%;
-        transition-delay: 0s;
-        transition-duration: 0.4s;
-        transition-property: top, right, bottom, left, border, transform;
-        transition-timing-function: ease;
+//        transition-delay: 0s;
+//        transition-duration: 0.4s;
+//        transition-property: top, right, bottom, left, border, transform;
+//        transition-timing-function: ease;
         background: #009b5c;
-        z-index: 99;
+        z-index: 999;
         .logo{
-            display: inline-block;
+            display: table;
             max-width: 28%;
-            min-height: 50px;
+            min-height: 100%;
             vertical-align: middle;
             width: 100px;
             line-height: 50px;
@@ -33,7 +24,8 @@ header{
             img{
                 width: 100%;
                 height: auto;
-                display: inline-block;
+                display: table-cell;
+                vertical-align: middle;
             }
         }
         .header_title_block{
@@ -42,9 +34,7 @@ header{
             .header_title{
                 display: inline-block;
                 vertical-align: middle;
-                padding-right: 15px;
-                line-height: 50px;
-                font-size:23px ;
+                padding-right: 4px;
             }
             a#open-icon-header{
                 background-color: #004529;

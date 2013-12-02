@@ -16,6 +16,7 @@
         cursor: pointer;
         font-weight: bold;
         line-height: 38px;
+        position: relative;
         .mail_icon, .cupon_icon, .money_icon{
             @include GeneralSprite();
             display: inline-block;
@@ -43,6 +44,20 @@
             height: 20px;
             margin-bottom: -4px;
             width: 29px;
+        }
+        span{
+            display: inline-block;
+            position: absolute;
+            color: #FFFFFF;
+            font-size: 12px;
+            height: 20px;
+            width: 20px;
+            line-height: 20px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            background: #df2021;
+            top: -10px;
+            right: -10px;
         }
     }
     &.Nbox-3{

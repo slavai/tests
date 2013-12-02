@@ -3142,6 +3142,7 @@ footer i.buble-icon {
   cursor: pointer;
   font-weight: bold;
   line-height: 38px;
+  position: relative;
 }
 .after_header_line a .mail_icon, .after_header_line a .cupon_icon, .after_header_line a .money_icon {
   background-image: url("../images/core_images/general_sprite.png");
@@ -3169,6 +3170,20 @@ footer i.buble-icon {
   height: 20px;
   margin-bottom: -4px;
   width: 29px;
+}
+.after_header_line a span {
+  display: inline-block;
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 12px;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  background: #df2021;
+  top: -10px;
+  right: -10px;
 }
 .after_header_line.Nbox-3 a {
   width: 30.8%;

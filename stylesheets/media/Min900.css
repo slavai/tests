@@ -47,7 +47,7 @@ body {
 }
 
 #open-icon-header {
-  display: none !important;
+  display: none!important;
 }
 
 .header_title {
@@ -55,7 +55,7 @@ body {
 }
 
 header .ContentWrapp {
-  position: static !important;
+  position: static!important;
 }
 
 body .formSabmit_block {
@@ -67,10 +67,10 @@ body .formSabmit_block {
   position: absolute;
 }
 body .formSabmit_block input {
-  width: 47% !important;
-  margin: 0 !important;
+  width: 47%!important;
+  margin: 0!important;
 }
 body .formSabmit_block a {
-  width: 48% !important;
-  margin: 0 !important;
+  width: 48%!important;
+  margin: 0!important;
 }

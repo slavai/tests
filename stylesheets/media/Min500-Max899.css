@@ -11,7 +11,7 @@ html, body {
   margin-left: 60px;
   position: relative;
   right: 60px;
-  z-index: auto !important;
+  z-index: auto!important;
 }
 
 .mm-menu.mm-right {
@@ -20,13 +20,13 @@ html, body {
   position: fixed;
 }
 .mm-menu.mm-right.mm-opened {
-  right: 0 !important;
-  left: auto !important;
+  right: 0!important;
+  left: auto!important;
   margin-left: 0;
 }
 
 #open-icon-header {
-  display: none !important;
+  display: none!important;
 }
 
 html.mm-opening .mm-page {
@@ -45,12 +45,12 @@ html.mm-opening .mm-page {
 }
 
 header .ContentWrapp {
-  position: static !important;
+  position: static!important;
 }
 
 #open-icon-menu i {
-  background: transparent !important;
-  box-shadow: 0 -3px 0 0 #FFFFFF, 0 3px 0 0 #FFFFFF, 0 9px 0 0 #FFFFFF;
+  background: transparent!important;
+  box-shadow: 0 -3px 0 0 white, 0 3px 0 0 white, 0 9px 0 0 white;
   height: 2px;
   margin-top: -7px;
   width: 17px;
@@ -65,12 +65,12 @@ body .formSabmit_block {
   min-width: 290px;
 }
 body .formSabmit_block input {
-  width: 47% !important;
-  margin: 0 !important;
+  width: 47%!important;
+  margin: 0!important;
 }
 body .formSabmit_block a {
-  width: 48% !important;
-  margin: 0 !important;
+  width: 48%!important;
+  margin: 0!important;
 }
 
 body .M_menu_icon {

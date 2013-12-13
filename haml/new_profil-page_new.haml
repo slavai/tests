@@ -1,0 +1,110 @@
+!!!
+%html{lang: "en-US"}
+  %head
+    %meta{charset: "utf-8"}/
+    %meta{content: "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
+    %meta{content: "", name: "description"}/
+    %meta{content: "width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no", name: "viewport"}/
+    %meta{content: "True", name: "HandheldFriendly"}/
+    %meta{content: "black-translucent", name: "apple-mobile-web-app-status-bar-style"}/
+    %meta{content: "telephone=no", name: "format-detection"}/
+    %title title.)
+    %link{href: "stylesheets/styles.css", rel: "stylesheet", type: "text/css"}/
+    %link{href: "stylesheets/media/Min900.css", media: "all and (min-width: 900px)", rel: "stylesheet", type: "text/css"}/
+    %link{href: "stylesheets/media/Min500-Max899.css", media: "all and (min-width: 500px) and (max-width: 899px)", rel: "stylesheet", type: "text/css"}/
+    /[if lt IE 9]
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  %body
+    #page
+      %section#home
+        / header
+        %header
+          .ContentWrapp.clearfix.mm-fixed-top
+            %a.logo{href: "/"}
+              %img{alt: "", src: "images/core_images/header-logo.png"}/
+            .header_title_block
+              %span.header_title ?Hola Pedro!
+              %a#open-icon-header{href: "#menu"}
+        / header
+        %section.page_title
+          %h2 Perfil
+        %section.mainContent
+          .ContentWrapp
+            .preform_content
+              %p
+                Aqui puedes hacer cambios a tu
+                cuenta o actualizar tu informacion.
+            .user_img
+              .user_avatar.clearfix{style: "background: url(\"http://placekitten.com/200/300\") "}
+              %input.button{type: "button", value: "Cambiar imagen de perfil"}/
+            %form#profil_form{action: "", "data-submit-position" => "true"}
+              / SABMIT BLOCK!!!!!
+              .formSabmit_block{style: "display: none"}
+                %input.green_button{type: "submit", value: "Actualizar"}/
+                %a#reset_form_button.red_button Cancelar
+              / SABMIT BLOCK end
+              %label
+                Primer Nombre
+                %input{placeholder: "Luis", type: "text"}/
+              %label
+                Apellido
+                %input{placeholder: "Hernandez", type: "text"}/
+              %label
+                Direccion de correo electronico
+                %input{placeholder: "luis.h494@gmail.com", type: "text"}/
+              %label
+                Nueva contrasena
+                %input{placeholder: "Nueva contrasena", type: "text"}/
+                %input{placeholder: "Confirma tu contrasena", type: "text"}/
+              %label
+                Codigo postal
+                %input{placeholder: "Codigo postal", type: "text"}/
+              %label
+                Telefono celular
+                %input{placeholder: "Telefono celular", type: "text"}/
+        %footer
+          .ContentWrapp
+            %h2 ?Le podemos ayudar!
+            %h3
+              %i.buble-icon>
+              (310) 826-3900
+      %nav#menu
+        %div
+          .chengeLan_MM.clearfix
+            %a.active{href: "#"} English
+            %a{href: "#"} Espanol
+          %ul
+            %li#open-icon-menu
+              %a{href: "#"}
+                %i.M_menu_icon.people_icon
+            %li
+              %a{href: "#"}
+                %i.M_menu_icon.human_icon
+                Mi Perfil
+            %li
+              %a{href: "#"}
+                %i.M_menu_icon.cupon_icon
+                Mis Cupones
+            %li
+              %a{href: "#"}
+                %i.M_menu_icon.money_icon
+                Mi Dinero
+            %li
+              %a{href: "#"}
+                %i.M_menu_icon.mail_icon
+                Mi Mensages
+            %li
+              %a{href: "#"}
+                %i.M_menu_icon.lock_icon
+                Cambiar la contrasena
+          .text-center
+            %a.MM_button{href: "#"} finalizar la sesion
+    / scripts place
+    %script{src: "http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js", type: "text/javascript"}
+    %script{src: "javascripts/mmenu/jquery.mmenu.min.all.js", type: "text/javascript"}
+    %script{src: "javascripts/plugin.js", type: "text/javascript"}
+    / last
+    %script{src: "javascripts/front-end.js"}
+    / last
+    / scripts place

@@ -38,7 +38,7 @@ header{
             }
             a#open-icon-header{
                 background-color: #004529;
-                background-image: url("../images/core_images/general_sprite.png");
+                @include GeneralSprite();
                 background-position: 9px -207px;
                 background-repeat: no-repeat;
                 background-size: 150% auto;

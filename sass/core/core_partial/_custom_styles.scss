@@ -104,8 +104,8 @@ body
             border-bottom: none;
         }
         a{
-            font-size: 12px;
-            line-height: 19px;
+            font-size: 18px;
+            line-height: 35px;
             color: #f3f3f3;
             padding-left: 15px;
             &:hover{
@@ -121,8 +121,8 @@ body
 
 }
 body #page{
-     box-shadow: 8px 0px 8px -5px rgba(0,0,0,0.5) !important;
-     -webkit-box-shadow: 8px 0px 8px -5px rgba(0,0,0,0.5) !important;
+     box-shadow: 8px 0 4px -5px rgba(0, 0, 0, 0.5) !important;
+     -webkit-box-shadow: 8px 0 4px -5px rgba(0, 0, 0, 0.5) !important;
  }
 //menu styles end
 
@@ -178,6 +178,7 @@ div.ContentWrapp
 .clearfix{
   @include clearfix();
 }
+.hide { display: 'none'}
 //custom healpers end
 
 // buttons
@@ -193,6 +194,7 @@ div.ContentWrapp
         padding: 7px 18px;
         color: #004529;
         font-weight: bold;
+        border:none;
         i{
             margin-right: 5px;
         }
@@ -278,26 +280,26 @@ div.ContentWrapp
 }
 .M_menu_icon{
     @include GeneralSprite();
-    background-size: 50px auto;
+    background-size: 65px auto;
     width: 28px;
     background-color: 20px;
-    height: 15px;
+    height: 25px;
     display: inline-block;
     vertical-align: middle;
     &.human_icon{
-        background-position: 0 -223px;
+        background-position: 0 -287px;
     }
     &.cupon_icon{
-        background-position:0px -265px;
+        background-position:0px -340px;
     }
     &.money_icon{
-        background-position: 0 -304px;
+        background-position: 0 -392px;
     }
     &.mail_icon{
-        background-position: 0 -346px;
+        background-position: 0 -446px;
     }
     &.lock_icon{
-        background-position: 0 -384px;
+        background-position: 0 -500px;
     }
 }
 
@@ -443,7 +445,7 @@ body.modalOpen{
     .img_cupon{
         height: 100%;
         width: 100%;
-        background: url("../images/core_images/spiffygif_50x50.gif") no-repeat center center;
+        background: url('spiffygif_50x50.gif') no-repeat center center;
         background-size: 25px;
         img{
             height: 100%;

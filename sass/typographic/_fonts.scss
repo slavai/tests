@@ -10,7 +10,6 @@ body
 {
     font-family:'Open Sans', 'sans-serif', Arial, Helvetica, Verdana;
     font-size: 16px;
-    font-size: light;
     line-height: 22px;
     color: #eee;
     -webkit-text-size-adjust: none;
@@ -72,5 +71,17 @@ header{
     .header_title{
         line-height: 50px;
         font-size:18x ;
+    }
+}
+.font-bold{
+    font-weight: bold;
+}
+
+$maxFontSize: 40;
+
+@for $col from 10 through $maxFontSize {
+    .font-size-#{$col} {
+        font-size: #{$col}px!important;
+        line-height: #{$col+6}px;
     }
 }

@@ -34,6 +34,8 @@
         }
     }
     .box_wInf_left{
+        text-overflow: ellipsis;
+        white-space: nowrap;
         background: none repeat scroll 0 0 #009457;
         border-radius: 4px 0 0 4px;
         border-right: 1px solid #097B4C;

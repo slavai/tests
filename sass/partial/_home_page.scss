@@ -19,6 +19,7 @@
         }
         .box_wInf_left{
             height: 102px;
+            &:after{display: none}
         }
         .box_wInf_right.circle_icon{
             border-radius: 0 4px 0 0;
@@ -109,6 +110,21 @@
         line-height: 25px;
         z-index: 9;
         width: 100%;
+        &:after{
+            background: none repeat scroll 0 0 #009457;
+            bottom: 2px;
+            color: #FFFFFF;
+            content: "...";
+            display: block;
+            font-size: 16px;
+            height: 25px;
+            line-height: 25px;
+            position: absolute;
+            right: 84px;
+            text-align: center;
+            width: 22px;
+            z-index: 999;
+        }
 
     }
     .mail_circle_icon:after{

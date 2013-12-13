@@ -1,3 +1,6 @@
+//	CSS for having the menu always opened.
+//	To use on widescreens only, include it using a mediaquery:
+//	<link type="text/css" href="mmenu-widescreen.css" media="all and (min-width: 900px)"/>
 
 @import "../plugins/mmenu/inc/_variables";
 

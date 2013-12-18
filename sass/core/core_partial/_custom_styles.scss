@@ -412,7 +412,6 @@ body.modalOpen{
     width: 100%;
     top: 0;
     left: 0;
-    height: 70%;
     background: #FFFFFF;
     box-shadow: 0 0 15px 2px #000000;
     padding: 45px 1% 75px;
@@ -447,8 +446,10 @@ body.modalOpen{
         width: 100%;
         background: url('spiffygif_50x50.gif') no-repeat center center;
         background-size: 25px;
+        text-align: center;
         img{
-            height: 100%;
+            display: inline-block;
+            max-width: 400px;
             width: 100%;
         }
     }
